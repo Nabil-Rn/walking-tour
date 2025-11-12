@@ -1,0 +1,63 @@
+{
+  "tour": {
+    "name": "Montreal Walking Tour",
+    "subtitle": "Syrian and Lebanese Heritage Sites",
+    "center": {
+      "lat": 45.546,
+      "lon": -73.617
+    },
+    "zoom": 14
+  },
+  "locations": [
+    {
+      "id": 1,
+      "name": "St. George Antiochian Orthodox Church",
+      "lat": 45.540046269707695,
+      "lon": -73.61419072828977,
+      "description": "This Byzantine-style church has towers with domes and colorful murals within it. It is the core of the Syrian-Lebanese community, a representation of continuity through change.",
+      "analysis": "Cultural negotiation is observed in the church with its combination of Western and Byzantine architecture. Its murals represent the re-appropriation of identity in the new land. It is an outward sign of the community strength a sacred place where the traditions are still alive in Montreal.",
+      "fieldNotes": "The twin domes with crosses on their tops are iconic landmarks in Villeray. It is a Byzantine and Romanesque building built in 1939-40 by architect Raoul Gariepy, to represent the dual heritage of the community. The Orthodox traditions are depicted in the interior murals by Emmanuel Briffa, which still use the same liturgy as it was during the construction.",
+      "imageUrl": "https://raw.githubusercontent.com/Nabil-Rn/walking-tour/main/images/GeorgeChurch.png"
+    },
+    {
+      "id": 2,
+      "name": "Jean-Talon Market Area",
+      "lat": 45.53620670083922,
+      "lon": -73.61491807317668,
+      "description": "A busy market with food stalls and stores that have Middle Eastern spices and produce. The historic site encompasses the Sayfy Grocery, a pre-historic economic center of Syrian-Lebanese immigrants. Les Filles Fattoush, a social enterprise founded by Syrian refugee women, has a permanent kiosk today, which is a continuation of the tradition of community entrepreneurship and preservation of culinary traditions.",
+      "analysis": "The market was founded in 1903 and it is the main public market centre in Montreal. Sellers are selling zaatar, hummus, fresh herbs, and spices, which form sensory signifiers of home.",
+      "fieldNotes": "Observation of vendors displaying familiar foods in organized stalls. Multilingual signage in French, Arabic, and English. Les Filles Fattoush kiosk shows women actively engaged in economic participation and food transmission. Foot traffic indicates regular community use. Aromas of spices and herbs create sensory continuity with Middle Eastern culinary traditions. Informal conversations between vendors and customers reflect social bonds and knowledge sharing.",
+      "imageUrl": "https://raw.githubusercontent.com/Nabil-Rn/walking-tour/main/images/Market.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Le Petit Alep Restaurant",
+      "lat": 45.53645774517356,
+      "lon": -73.6164154845227,
+      "description": "An exotic Middle Eastern restaurant next to the market. It celebrates Syrian and Armenian family values in food and has been a legendary establishment since 1995.",
+      "analysis": "The restaurant is a living archive, and it keeps the stories and flavors of the community. Food is turned into a cultural preservation and memory of the people, as it provides a common experience that does not assimilate to culture.",
+      "fieldNotes": "Interior decor reflects Middle Eastern aesthetics with warm lighting and traditional furnishings. Menu items display family recipes passed through generations. Frangié family story visible through restaurant branding. Michelin recognition indicates institutional validation of immigrant culinary knowledge. Restaurant functions as gathering space for diverse clientele including artists, students, and community members. Affordable pricing democratizes cultural cuisine and makes heritage accessible.",
+      "imageUrl": "https://raw.githubusercontent.com/Nabil-Rn/walking-tour/main/images/Restaurant.jpg"
+    },
+    {
+      "id": 4,
+      "name": "St. Nicholas Antiochian Orthodox Church",
+      "lat": 45.53614258638399,
+      "lon": -73.61862520326729,
+      "description": "It was established in 1899, the first Antiochian Orthodox parish in Canada. The church is the first institutional continuity of the Syrian Orthodox Christianity in North America, 40 years earlier than St. George.",
+      "analysis": "The early diaspora identity formation of St. Nicholas is based on the religious institution-building. In contrast to the high domes of St. George, the small exterior of St. Nicholas is indicative of the first-generation immigrant economies and social status.",
+      "fieldNotes": "The church was constructed in 1899 on de Castelnau Street by Fr. Raphael who in 1920s established the Syrian Ladies Benevolent Society. Here, after-service meetings, community organization, and coordination of mutual aid occurred. Its simple brick building, not as fancy as that of St. George, is a sign of the origins of the working-class immigrant population.",
+      "imageUrl": "https://raw.githubusercontent.com/Nabil-Rn/walking-tour/main/images/NicholasChurch.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Salahouddine Mosque",
+      "lat": 45.52885807174498,
+      "lon": -73.61457640971264,
+      "description": "It was established in 1990 as a volunteer-constructed mosque in a former marble factory, and is a symbol of the Muslim Syrian-Lebanese diaspora wave of the late 20th century, particularly those who fled the conflict in 1986.",
+      "analysis": "The mosque depicts the temporal and religious diversity of the diaspora. Although St. George and St. Nicholas are symbols of early 20th-century Orthodox Christian immigration, Salahouddine is a symbol of late 20th-century Muslim immigration, such as Lebanese Shia and Syrian refugees. The 1994 model of diaspora as heterogeneous developed by Hall is echoed here, the identical Syrian-Lebanese background, the different religious background, the different historical time. In conjunction with the Orthodox churches, Salahouddine shows the religious pluralism of the Syrian-Lebanese identity, which was previously not visible in the dominant narratives.",
+      "fieldNotes": "The factory was converted into a prayer space in 1990 by former marble workers who had donated their labor to construct the building. Friday prayers also have a regular attendance of over 300 worshippers with community meals, Arabic classes and youth programs. The mosque is a representation of modern day diaspora refugee settlement, which transforms economic precarity into spiritual and social strength.",
+      "imageUrl": "https://raw.githubusercontent.com/Nabil-Rn/walking-tour/main/images/Mosque.png"
+    }
+  ]
+}

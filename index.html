@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Montreal heritage walking tour">
+  <title>Montreal Walking Tour - Syrian & Lebanese Heritage</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+<body>
+  <div class="app-container">
+    <div class="left-panel">
+      <div class="header">
+        <h1>Montreal Walking Tour</h1>
+        <p>Syrian & Lebanese Heritage Sites</p>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <h2>Welcome to Your Walking Tour</h2>
+          <p class="instructions">
+            Click on any location marker to get started. Then click another marker to see the walking route.
+          </p>
+
+          <div id="locationInfo">
+            <div id="locationName" class="location-name"></div>
+            <div id="locationDescription" class="location-description"></div>
+            <div id="locationAnalysis" class="location-analysis"></div>
+            <div id="routeInfo" class="route-info" style="display:none;"></div>
+          </div>
+
+          <div class="actions">
+            <button id="clearBtn" class="btn btn--secondary">Clear Route</button>
+          </div>
+        </div>
+
+        <section class="locations-panel">
+          <h2 class="mb-8">Tour Locations</h2>
+          <!-- Location cards inserted by JS -->
+          <div class="credit-card">
+            <strong>Course reading cited:</strong><br />
+            Hall, S. (1994). Cultural identity and diaspora. In J. Rutherford (Ed.), Identity: Community, culture, difference (pp. 222-237). Lawrence & Wishart.
+            1- https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1901
+            2- https://www.themain.com/articles/les-filles-fattoush-jean-talon-market-syrian-food-montreal
+            3- https://en.wikipedia.org/wiki/Le_Petit_Alep
+            4- https://stnicholasmtl.com/parish-history/
+            5- 
+          </div>
+        </section>
+        
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
