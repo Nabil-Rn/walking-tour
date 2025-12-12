@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +8,12 @@
   <title>Montreal Walking Tour - Syrian & Lebanese Heritage</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+  <link rel="stylesheet" href="components.css" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
 </head>
+
 <body>
   <div class="app-container">
     <div class="left-panel">
@@ -34,6 +38,7 @@
 
           <div class="actions">
             <button id="clearBtn" class="btn btn--secondary">Clear Route</button>
+            <a href="https://github.com/Nabil-Rn/walking-tour/blob/main/data.md" class="btn btn--secondary" target="_blank">Text Version</a>
           </div>
         </div>
 
@@ -41,18 +46,60 @@
           <h2 class="mb-8">Tour Locations</h2>
           <!-- Location cards inserted by JS -->
           <div class="credit-card">
-            <strong>Course reading cited:</strong><br /><br>
-            Hall, S. (1994). Cultural identity and diaspora. In J. Rutherford (Ed.), Identity: Community, culture, difference (pp. 222-237). Lawrence & Wishart.<br><br>
-            De Certeau, Michel. "Walking in the City" (1980)<br><br>
-            A Map to the Door of No Return" (2012)<br><br>
-            1- https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1901<br>
-            2- https://www.themain.com/articles/les-filles-fattoush-jean-talon-market-syrian-food-montreal<br>
-            3- https://en.wikipedia.org/wiki/Le_Petit_Alep<br>
-            4- https://stnicholasmtl.com/parish-history/<br>
-            5- https://mrsp.mcgill.ca/reports/html/Salahouddine/index.htm
+            <div class="citations-box">
+              <h3>Course Reading Cited</h3>
+
+              <p class="citation">
+                Hall, S. (1994). Cultural identity and diaspora. In J. Rutherford (Ed.), <em>Identity: Community,
+                  culture, difference</em> (pp. 222-237). Lawrence & Wishart.
+              </p>
+
+              <p class="citation">
+                De Certeau, M. (1980). Walking in the city. In <em>The practice of everyday life</em> (pp. 91-110; S. F.
+                Rendall, Trans.). University of California Press.
+              </p>
+
+              <p class="citation">
+                Brand, D. (2012). <em>A map to the door of no return: Notes to belonging</em>. Vintage Canada.
+              </p>
+
+              <h3>Sources</h3>
+
+              <p class="citation">
+                Parks Canada. (n.d.). <em>National historic site - Sir Guy Carleton</em>. Retrieved from <a
+                  href="https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1901"
+                  target="_blank">https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1901</a>
+              </p>
+
+              <p class="citation">
+                The Main. (n.d.). Les filles fattoush, Jean-Talon market, Syrian food Montreal. Retrieved from <a
+                  href="https://www.themain.com/articles/les-filles-fattoush-jean-talon-market-syrian-food-montreal"
+                  target="_blank">https://www.themain.com/articles/les-filles-fattoush-jean-talon-market-syrian-food-montreal</a>
+              </p>
+
+              <p class="citation">
+                Wikipedia. (n.d.). <em>Le Petit Alep</em>. Retrieved from <a
+                  href="https://en.wikipedia.org/wiki/Le_Petit_Alep"
+                  target="_blank">https://en.wikipedia.org/wiki/Le_Petit_Alep</a>
+              </p>
+
+              <p class="citation">
+                St. Nicholas Church. (n.d.). <em>Parish history</em>. Retrieved from <a
+                  href="https://stnicholasmtl.com/parish-history/"
+                  target="_blank">https://stnicholasmtl.com/parish-history/</a>
+              </p>
+
+              <p class="citation">
+                McGill Research Support. (n.d.). <em>Salahouddine mosque: Arab-Muslim heritage in Montreal</em>.
+                Retrieved from <a href="https://mrsp.mcgill.ca/reports/html/Salahouddine/index.htm"
+                  target="_blank">https://mrsp.mcgill.ca/reports/html/Salahouddine/index.htm</a>
+              </p>
+            </div>
+
+
           </div>
         </section>
-        
+
       </div>
     </div>
 
@@ -63,4 +110,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
